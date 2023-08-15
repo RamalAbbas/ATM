@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+main .err_message{
+    color: red;
+}
+
+main .regestration_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 450px;
+}
+
+main .regestration_form .same_property
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main .regestration_form .same_property .form_label
+{
+    color: #7E7E7E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+main .regestration_form .same_property .form_input
+{
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #DADADA;
+    padding: 0px 12px;
+    color: #ADADAD;
+}
+
+main .regestration_form .same_property .form_input::placeholder
+{
+    color: #ADADAD;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .regestration_form .form_button{
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    background: #c6920f;
+    box-shadow: 2px 10px 35px 0px rgba(106, 91, 226, 0.10);
+    border: 0;
+    cursor: pointer;
+
+    /* daxilindeki text style */
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.noShow{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.addMany{
+    width: 180px;
+    height: 40px;
+    background: #c6920f;
+    border: 0;
+    cursor: pointer;
+    /* daxilindeki text style */
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.payMany{
+    width: 180px;
+    height: 40px;
+    background: #c6920f;
+    border: 0;
+    cursor: pointer;
+
+    /* daxilindeki text style */
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.showBalance{
+    width: 220px;
+    height: 40px;
+    background: #c6920f;
+    border: 0;
+    cursor: pointer;
+
+    /* daxilindeki text style */
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
